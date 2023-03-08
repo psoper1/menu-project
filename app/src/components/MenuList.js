@@ -1,8 +1,10 @@
-import Breakfast from "./Breakfast";
+// import Breakfast from "./Breakfast";
 
 function MenuList() {
     return (
-        <Breakfast />
+        <>
+        {/* <Breakfast /> */}
+        </>
     );
 }
 

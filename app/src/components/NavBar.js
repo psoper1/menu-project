@@ -1,3 +1,5 @@
+import Breakfast from "./Breakfast";
+
 function NavBar() {
     return (
         <nav>
@@ -9,10 +11,11 @@ function NavBar() {
             </div>
             <div className="menu">
                 <ul>
-                    <li><a href="#">Breakfast</a></li>
-                    <li><a href="#">Lunch</a></li>
-                    <li><a href="#">Dinner</a></li>
-                    <li><a href="#">Full Menu</a></li>
+                    <button onClick={Breakfast}>Test</button>
+                    <li><a id="breakfast" href="#">Breakfast</a></li>
+                    <li><a id="lunch" href="#">Lunch</a></li>
+                    <li><a id="dinner" href="#">Dinner</a></li>
+                    <li><a id="fullmenu" href="#">Full Menu</a></li>
                 </ul>
             </div>
         </nav>
