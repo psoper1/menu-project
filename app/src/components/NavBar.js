@@ -11,10 +11,11 @@ function NavBar() {
             </div>
             <div className="menu">
                 <ul>
-                    <button onClick={Breakfast}>Test</button>
+                    {/* <button onClick={Breakfast}>Test</button> */}
                     <li><a id="breakfast" href="#">Breakfast</a></li>
                     <li><a id="lunch" href="#">Lunch</a></li>
                     <li><a id="dinner" href="#">Dinner</a></li>
+                    <li><a id="appetizers" href="#">Appetizers</a></li>
                     <li><a id="fullmenu" href="#">Full Menu</a></li>
                 </ul>
             </div>
