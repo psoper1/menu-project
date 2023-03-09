@@ -2,6 +2,24 @@ body {
     background-color: #767375;
 }
 
+.box1 {
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+#headerFont {
+    font-family: Bradley Hand, cursive;
+}
+
+#footer {
+    margin-top: 160px;
+}
+
+#initial-view {
+    margin-top: 10%;
+}
+
 .fa-ul {
     margin-left: 1.65em;
     list-style-type: none;

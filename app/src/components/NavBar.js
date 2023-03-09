@@ -1,6 +1,4 @@
-import Breakfast from "./Breakfast";
-
-function NavBar() {
+function NavBar( {setView} ) {
     return (
         <nav>
             <div className="menu-icon">
@@ -11,12 +9,12 @@ function NavBar() {
             </div>
             <div className="menu">
                 <ul>
-                    {/* <button onClick={Breakfast}>Test</button> */}
-                    <li><a id="breakfast" href="#">Breakfast</a></li>
-                    <li><a id="lunch" href="#">Lunch</a></li>
-                    <li><a id="dinner" href="#">Dinner</a></li>
-                    <li><a id="appetizers" href="#">Appetizers</a></li>
-                    <li><a id="fullmenu" href="#">Full Menu</a></li>
+                    
+                    <li><button className='btn bg-transparent' onClick={() => setView('Breakfast')}>Breakfast</button></li>
+                    <li><button className='btn bg-transparent' onClick={() => setView('Lunch')}>Lunch</button></li>
+                    <li><button className='btn bg-transparent' onClick={() => setView('Dinner')}>Dinner</button></li>
+                    <li><button className='btn bg-transparent' onClick={() => setView('Appetizers')}>Appetizers</button></li>
+                    <li><button className='btn bg-transparent' onClick={() => setView('Potato')}>Full Menu</button></li>
                 </ul>
             </div>
         </nav>

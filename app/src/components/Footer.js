@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <>
-        <footer className="text-white text-center text-lg-start bg-dark">
+        <footer id='footer' className="text-white text-center text-lg-start bg-dark">
     
     <div className="container p-4">
       

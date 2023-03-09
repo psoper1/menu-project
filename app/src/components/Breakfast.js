@@ -1,24 +1,4 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-
-function Breakfast() {
-    const [data, setData] = useState({ menu: [] });
-    
-
-    
-  
-    useEffect(() => {
-      const fetchData = async () => {
-        const result = await axios(
-          'https://www.jsonkeeper.com/b/BKQ0',
-        );
-  
-        setData(result.data);
-      };
-  
-      fetchData();
-    }, []);
-  
+function Breakfast( {data} ) {
     return (
       <ul className="menuList text-center">
         {data.menu.filter((fast) => fast.category.includes('Breakfast')).map(item => (
@@ -34,7 +14,7 @@ function Breakfast() {
 
 export default Breakfast;
 
-{/* <div className="row">
+/* <div className="row">
   <div className="col-sm-6">
     <div className="card">
       <div className="card-body">
@@ -43,7 +23,7 @@ export default Breakfast;
       </div>
     </div>
   </div>
-  </div> */}
+  </div> */
 
 
   // <h5 className="card-title">{item.title}</h5>
@@ -53,3 +33,21 @@ export default Breakfast;
             // <li key={item.id}>
           //   {item.title}
           // </li>
+
+
+              // const [data, setData] = useState({ menu: [] });
+    
+
+    
+  
+    // useEffect(() => {
+    //   const fetchData = async () => {
+    //     const result = await axios(
+    //       'https://www.jsonkeeper.com/b/BKQ0',
+    //     );
+  
+    //     setData(result.data);
+    //   };
+  
+    //   fetchData();
+    // }, []);
