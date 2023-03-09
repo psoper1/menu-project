@@ -1,11 +1,12 @@
 function Breakfast( {data} ) {
     return (
       <ul className="menuList text-center">
+        <h1 style={{ color: 'white'}} className='text-center menu-header'>Breakfast</h1>
         {data.menu.filter((fast) => fast.category.includes('Breakfast')).map(item => (
           <>
-          <h5 className="card-title">{item.title}</h5>
-          <p className="card-text">{item.description}</p>
-          <p className="card-text">{item.price}</p>
+          <h4 style={{ color: 'white' }} className="card-title item-title">{item.title}</h4>
+          <p style={{ color: 'white' }} className="card-text item-description">{item.description}</p>
+          <p style={{ color: 'white' }} className="card-text">${item.price}</p>
           </>
         ))}
       </ul>
@@ -13,41 +14,3 @@ function Breakfast( {data} ) {
   }
 
 export default Breakfast;
-
-/* <div className="row">
-  <div className="col-sm-6">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">{item.title}</h5>
-        <p className="card-text">{item.description}</p>
-      </div>
-    </div>
-  </div>
-  </div> */
-
-
-  // <h5 className="card-title">{item.title}</h5>
-  //         <p className="card-text">{item.description}</p>
-  //         <p className="card-text">{item.price}</p>
-
-            // <li key={item.id}>
-          //   {item.title}
-          // </li>
-
-
-              // const [data, setData] = useState({ menu: [] });
-    
-
-    
-  
-    // useEffect(() => {
-    //   const fetchData = async () => {
-    //     const result = await axios(
-    //       'https://www.jsonkeeper.com/b/BKQ0',
-    //     );
-  
-    //     setData(result.data);
-    //   };
-  
-    //   fetchData();
-    // }, []);
