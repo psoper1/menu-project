@@ -14,7 +14,7 @@ function MenuList({ data, view, setView }) {
 
     return (
         <>
-             <div className='container main-container'>
+             <div className='container main-container container'>
                 <Logo />
                 <NameHeader />
                 <NavBar setView={setView} />
