@@ -1,18 +1,16 @@
 function Footer() {
     return (
         <>
-        <footer id='footer' className="text-white text-center text-lg-start bg-dark">    
+        <footer id='footer' className="text-white text-center text-lg-start">    
     <div className="container p-4">      
       <div className="row mt-4">       
         <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 className="text-uppercase mb-4">About company</h5>
+          <h5 className="text-uppercase mb-4">About</h5>
           <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            voluptatum deleniti atque corrupti.
+            Hello! My name is Keith! When I'm not playing basketball, I'm loving POTATOES!
           </p>
           <p>
-            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-            molestias.
+            Come to Keiths' Potatoes and enjoy some nice gourmet SPUDS.
           </p>
           <div className="mt-4">           
           </div>
@@ -22,10 +20,10 @@ function Footer() {
           </div>
           <ul className="fa-ul">
             <li className="mb-3">
-              <span className="fa-li"><i className=""></i></span><span className="ms-2"></span>
+              <span className="fa-li"><i className=""></i></span><span className="ms-2"><h4>Address: Potato Island, CT </h4></span>
             </li>
             <li className="mb-3">
-              <span className="fa-li"><i className=""></i></span><span className="ms-2"></span>
+              <span className="fa-li play-ball"><i className=""></i></span><span className="ms-2"><a href="https://www.espn.com/mens-college-basketball/player/_/id/55243/keith-downing">I play ball</a></span>
             </li>
             <li className="mb-3">
               <span className="fa-li"><i className=""></i></span><span className="ms-2"></span>
@@ -38,15 +36,15 @@ function Footer() {
             <tbody className="fw-normal">
               <tr>
                 <td>Mon - Thu:</td>
-                <td>8am - 9pm</td>
+                <td>9am - 10pm</td>
               </tr>
               <tr>
                 <td>Fri - Sat:</td>
-                <td>8am - 1am</td>
+                <td>9am - 12am</td>
               </tr>
               <tr>
                 <td>Sunday:</td>
-                <td>9am - 10pm</td>
+                <td>9am - 9pm</td>
               </tr>
             </tbody>
           </table>

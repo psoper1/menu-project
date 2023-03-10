@@ -1,6 +1,6 @@
 function NameHeader() {
     return (
-      <h1 id='headerFont' className="text-center" style={{ color: 'white' }}>The Keiths' Potato</h1>
+      <h1 id='headerFont' className="text-center">"The Keiths' Potato"</h1>
     );
   }
   

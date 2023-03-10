@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        'https://www.jsonkeeper.com/b/BKQ0',
+        'https://www.jsonkeeper.com/b/3JFY',
       );
 
       setData(result.data);
