@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/menu-project/static/css/main.311549d4.css",
+    "main.js": "/menu-project/static/js/main.f3f01ce9.js",
+    "static/media/potatobackground.jpg": "/menu-project/static/media/potatobackground.e849782a8d88f590fa3b.jpg",
+    "static/media/photo.png": "/menu-project/static/media/photo.3f6e5d6fdb9fd5023b22.png",
+    "static/media/navpotato.png": "/menu-project/static/media/navpotato.59066dc1d0422bb5e3e7.png",
+    "static/media/potatobuds2.png": "/menu-project/static/media/potatobuds2.075f96adc5d6f216cac9.png",
+    "index.html": "/menu-project/index.html",
+    "main.311549d4.css.map": "/menu-project/static/css/main.311549d4.css.map",
+    "main.f3f01ce9.js.map": "/menu-project/static/js/main.f3f01ce9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311549d4.css",
+    "static/js/main.f3f01ce9.js"
+  ]
+}
