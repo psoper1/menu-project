@@ -20,7 +20,7 @@ function Footer() {
           </div>
           <ul className="fa-ul">
             <li className="mb-3">
-              <span className="fa-li"><i className=""></i></span><span className="ms-2"><h4>Address: Potato Island, CT </h4></span>
+              <span className="fa-li"><i className=""></i></span><span className="ms-2"><h4>Find me in Potato Island, CT </h4></span>
             </li>
             <li className="mb-3">
               <span className="fa-li play-ball"><i className=""></i></span><span className="ms-2"><a href="https://www.espn.com/mens-college-basketball/player/_/id/55243/keith-downing">I play ball</a></span>
